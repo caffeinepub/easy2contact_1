@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a website similar to bizprospex.com for Easy2Contact",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Modern, professional B2B company logo for Easy2Contact with clean typography and geometric elements, suitable for a lead generation platform (easy2contact-logo.dim_240x80.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-professional-homepage-with-hero-section-featuring-the-easy2contact-brand-tagline-and-call-to-action-button-for-getting-started",
+      "title": "Create a professional homepage with hero section featuring the Easy2Contact brand, tagline, and call-to-action button for getting started",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-features-section-highlighting-core-capabilities-such-as-contact-data-lead-generation-and-business-intelligence-services",
+      "title": "Implement a features section highlighting core capabilities such as contact data, lead generation, and business intelligence services",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-search-or-lead-generation-form-where-users-can-input-criteria-and-submit-requests",
+      "title": "Create a contact search or lead generation form where users can input criteria and submit requests",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-solutions-page-describing-the-different-packages-or-offerings-available",
+      "title": "Build a services/solutions page describing the different packages or offerings available",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-inquiry-form-with-fields-for-name-email-company-and-message-that-stores-submissions-in-the-backend",
+      "title": "Implement a contact/inquiry form with fields for name, email, company, and message that stores submissions in the backend",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-company-information-section-explaining-easy2contact-s-mission-and-value-proposition",
+      "title": "Create an about/company information section explaining Easy2Contact's mission and value proposition",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-and-implement-a-professional-modern-visual-theme-with-a-cohesive-color-palette-typography-system-and-consistent-layout-patterns-suitable-for-a-b2b-lead-generation-platform",
+      "title": "Design and implement a professional, modern visual theme with a cohesive color palette, typography system, and consistent layout patterns suitable for a B2B lead generation platform",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-existing-easy2contact-logo-with-a-new-design-that-maintains-brand-consistency-while-providing-a-fresh-professional-appearance-suitable-for-a-b2b-lead-generation-platform",
+      "title": "Replace the existing Easy2Contact logo with a new design that maintains brand consistency while providing a fresh, professional appearance suitable for a B2B lead generation platform",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website similar to bizprospex.com structure and features",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Change the Easy2Contact logo",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Easy2Contact",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

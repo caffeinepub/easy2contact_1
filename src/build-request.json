@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Update Easy2Contact logo",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Replace the existing Easy2Contact logo with a new design that maintains brand consistency while providing a fresh, professional appearance suitable for a B2B lead generation platform",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-change-logo"
+        ],
+        "quotes": [
+          "Change logo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New logo is visible in the Navigation component header",
+        "Logo maintains appropriate sizing and spacing in both desktop and mobile views",
+        "Logo design is professional and aligns with the B2B lead generation industry",
+        "Logo file is optimized for web performance"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify backend code",
+    "Preserve existing Navigation component structure and routing functionality",
+    "Maintain responsive design across all viewport sizes"
+  ],
+  "nonGoals": [
+    "Changing the company name or brand identity beyond the logo",
+    "Modifying other branding elements like color scheme or typography",
+    "Updating logos or branding in locations other than the main navigation header"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern, professional B2B company logo for Easy2Contact with clean typography and geometric elements, suitable for a lead generation platform (easy2contact-logo.dim_240x80.png)"
+    ],
+    "edits": []
+  }
+}

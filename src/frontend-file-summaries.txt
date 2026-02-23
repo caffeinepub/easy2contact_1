@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router configuration defining all routes (home, services, about, contact, lead-generation) wrapped in a shared Layout component.",
+  "frontend/src/components/Layout.tsx": "Root layout component that wraps all pages with Navigation header and Footer, providing consistent structure across the application.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with the new Easy2Contact logo, desktop/mobile menus, and active route highlighting using TanStack Router with responsive logo sizing (32px mobile, 40px desktop).",
+  "frontend/src/components/Footer.tsx": "Professional footer with company info, quick links, services, social media icons, and Caffeine.ai attribution with dynamic UTM tracking.",
+  "frontend/src/components/Hero.tsx": "Eye-catching hero section with gradient background, value proposition, CTA buttons, and key statistics displayed in cards.",
+  "frontend/src/components/FeaturesSection.tsx": "Three-column feature grid showcasing Lead Discovery, Data Intelligence, and Business Growth with icons and descriptions.",
+  "frontend/src/components/LeadGenerationForm.tsx": "Form component for lead generation requests with fields for name, email, company, and search criteria, connected to backend with React Query mutations.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with name, email, company, and message fields, submitting to backend and displaying success/error states.",
+  "frontend/src/pages/HomePage.tsx": "Landing page combining Hero, FeaturesSection, Why Choose Us section with icons, and a CTA section encouraging users to get started.",
+  "frontend/src/pages/ServicesPage.tsx": "Comprehensive services page detailing Contact Data, Lead Generation, and Business Intelligence offerings with pricing packages.",
+  "frontend/src/pages/AboutPage.tsx": "About page explaining Easy2Contact's mission, values, statistics, and reasons to choose the platform with professional layout.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with contact information (email, phone, address, hours) alongside the ContactForm component.",
+  "frontend/src/pages/LeadGenerationPage.tsx": "Dedicated lead generation page explaining the process, benefits, and what customers receive, featuring the LeadGenerationForm.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for fetching all contact requests from the backend actor.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring teal/cyan primary colors for professional B2B aesthetic in both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with teal/cyan color palettes, Inter font family, custom border radius, and design tokens matching the B2B theme."
+}
